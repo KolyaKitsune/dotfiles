@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Sync Seedvault
+Exec=alacritty -e fish -c "ls '/run/user/1000/01bfc2dc9b754fc2b55c5e4fea1b5543/storage/emulated/0/' > /dev/null; and rsync -av --info=progress2 '/run/user/1000/01bfc2dc9b754fc2b55c5e4fea1b5543/storage/emulated/0/.SeedvaultAndroidBackup/' '$HOME/Documents/SeedVaultAndroidBackup/'; and echo 'Backup Complete!'; or echo 'Failed: Is the phone connected?'; read"
+Icon=system-lock-screen
+Terminal=false
+Type=Application
+Categories=Utility;

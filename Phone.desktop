@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=scrcpy
+Comment=Display and control your Android device
+Icon=phone
+Exec=scrcpy --max-size=1600 --video-bit-rate=12M --max-fps=60 --turn-screen-off --stay-awake
+Terminal=false
+Categories=Utility;RemoteAccess;
+Keywords=phone;android;mirror;usb;
