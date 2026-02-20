@@ -1,0 +1,21 @@
+[Desktop Entry]
+[Desktop Entry]
+Type=Application
+Name=Compress to 10MB
+Categories=Utility;
+Comment[en_US]=
+Comment=
+Exec=$HOME/Videos/compress-mix.sh %f
+GenericName[en_US]=
+GenericName=
+Icon=system-run
+MimeType=
+Name[en_US]=Link to Application
+Name=Link to Application
+Path=
+StartupNotify=true
+Terminal=true
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=
